@@ -23,9 +23,8 @@
 Database Creation: The project starts by creating a database named p1_retail_db.
 Table Creation: A table named retail_sales is created to store the sales data.
 The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
-
-         
-        CREATE DATABASE Sales;
+   
+       CREATE DATABASE Sales;
                  
         CREATE TABLE Sales02
         (
@@ -75,7 +74,7 @@ The following SQL queries were developed to answer specific business questions:
 
 
    
-2.Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022:
+ 2.Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022:
 
      SELECT 
        *
@@ -86,7 +85,7 @@ The following SQL queries were developed to answer specific business questions:
          TO_CHAR(sale_date, 'YYYY-MM') = '2022-11'
          AND
          quantity >= 4
-Write a SQL query to calculate the total sales (total_sale) for each category.
+3.Write a SQL query to calculate the total sales (total_sale) for each category.
 
      SELECT 
          category,
@@ -95,7 +94,7 @@ Write a SQL query to calculate the total sales (total_sale) for each category.
      FROM retail_sales
      GROUP BY 1
      
-Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.
+4.Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.
     
     SELECT
         ROUND(AVG(age), 2) as avg_age
@@ -105,7 +104,7 @@ Write a SQL query to find the average age of customers who purchased items from 
     SELECT * FROM retail_sales
     WHERE total_sale > 1000
 
-Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.
+5.Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.
     
     SELECT 
         category,
@@ -118,7 +117,7 @@ Write a SQL query to find the total number of transactions (transaction_id) made
         gender
     ORDER BY 1
 
-Write a SQL query to calculate the average sale for each month. Find out best selling month in each year.
+6.Write a SQL query to calculate the average sale for each month. Find out best selling month in each year.
 
      SELECT 
             year,
@@ -144,7 +143,7 @@ Write a SQL query to calculate the average sale for each month. Find out best se
      ORDER BY 2 DESC
      LIMIT 5
      
-Write a SQL query to find the number of unique customers who purchased items from each category.:
+7.Write a SQL query to find the number of unique customers who purchased items from each category.:
     
     SELECT 
         category,    
@@ -169,23 +168,32 @@ Write a SQL query to find the number of unique customers who purchased items fro
     FROM hourly_sale
     GROUP BY shift
     
-## Findings
--Customer Demographics: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
--High-Value Transactions: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
--Sales Trends: Monthly analysis shows variations in sales, helping identify peak seasons.
--Customer Insights: The analysis identifies the top-spending customers and the most popular product categories.
-Reports
--Sales Summary: A detailed report summarizing total sales, customer demographics, and category performance.
--Trend Analysis: Insights into sales trends across different months and shifts.
--Customer Insights: Reports on top customers and unique customer counts per category.
+## Findings:-
 
-## Conclusion
-  This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project     can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+- Customer Demographics:
+  The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
+- High-Value Transactions:
+ Several transactions had a total sale amount greater than 1000, indicating premium purchases.
+- Sales Trends:
+ Monthly analysis shows variations in sales, helping identify peak seasons.
+- Customer Insights:
+  The analysis identifies the top-spending customers and the most popular product categories.
+  Reports
+- Sales Summary:
+  A detailed report summarizing total sales, customer demographics, and category performance.
+- Trend Analysis:
+  Insights into sales trends across different months and shifts.
+- Customer Insights:
+  Reports on top customers and unique customer counts per category.
 
-## How to Use
--Clone the Repository: Clone this project repository from GitHub.
--Set Up the Database: Run the SQL scripts provided in the database_setup.sql file to create and populate the database.
--Run the Queries: Use the SQL queries provided in the analysis_queries.sql file to perform your analysis.
+## Conclusion:-
+  This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. 
+  The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+
+## How to Use:-
+- Clone the Repository: Clone this project repository from GitHub.
+- Set Up the Database: Run the SQL scripts provided in the database_setup.sql file to create and populate the database.
+- Run the Queries: Use the SQL queries provided in the analysis_queries.sql file to perform your analysis.
 
 
 
