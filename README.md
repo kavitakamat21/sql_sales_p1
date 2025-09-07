@@ -1,39 +1,52 @@
-🛒 Retail Sales Analysis with SQL
-📌 Project Overview
-This project explores retail sales data using SQL to uncover insights such as:
-Best- selling products
-Seasonal trends in sales
-Customer purchasing behavior
-Store- level performance
+# 🛒 Retail Sales Analysis with SQL :-
+
+## 📌 Project Overview
+
+This project explores retail sales data using SQL to uncover insights such as :
+
+- Best - selling products
+- Seasonal trends in sales
+- Customer purchasing behavior
+- Store - level performance
+-  Level: Beginner
+
+This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
 The goal is to demonstrate SQL querying, data analysis, and business intelligence skills by analyzing real-world retail sales patterns.
 
-📂 Dataset
 
+
+## 📂 Dataset :-
 The dataset used is:
 📄 SQL - "Retail Sales Analysis_utf.csv"
 
+## It includes fields like:
+- TransactionID  – Unique transaction reference
+- Date  – Transaction date
+- CustomerID  – Customer identifier
+- Product  – Item purchased
+- Quantity  – Units sold
+- Price  – Price per unit
+- TotalAmount  – Transaction amount
 
+## 🛠️ Tools & Technologies
+- SQL (MySQL ) For querying the dataset
+- GitHub – For version control & collaboration
 
-
-# Retail Sales Analysis SQL Project
-  Analyzing retail sales to custromer support using mysql.
-## Project Overview :-
-- Project Title: Retail Sales Analysis
-- Level: Beginner
-- Database: p1_retail_db
-
-  This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database,        performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to              build a solid foundation in SQL.
 
 ## Objectives:-
    Set up a retail sales database: Create and populate a retail sales database with the provided sales data.
 
+### 📑Data Cleaning:   
+  Identify and remove any records with missing or null values.
+
    
-### Data Cleaning:   
-   Identify and remove any records with missing or null values.
 ### Exploratory Data Analysis (EDA):
-   Perform basic exploratory data analysis to understand the dataset.
-### Business Analysis: 
-   Use SQL to answer specific business questions and derive insights from the sales data.
+Perform basic exploratory data analysis to understand the dataset.
+
+   
+###📈 Business Analysis: 
+Use SQL to answer specific business questions and derive insights from the sales data.
+
 
 # Project Structure
 1. Database Setup
@@ -57,6 +70,7 @@ The table structure includes columns for transaction ID, sale date, sale time, c
            cogs FLOAT,
            total_sale FLOAT
        );
+
 # 2. Data Exploration & Cleaning:-
    - Record Count: Determine the total number of records in the dataset.
    - Customer Count: Find out how many unique customers are in the dataset.
