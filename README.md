@@ -44,7 +44,8 @@ The dataset used is:
 Perform basic exploratory data analysis to understand the dataset.
 
    
-###📈 Business Analysis: 
+### 📈 Business Analysis:
+
 Use SQL to answer specific business questions and derive insights from the sales data.
 
 
