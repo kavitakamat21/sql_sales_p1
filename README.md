@@ -49,7 +49,7 @@ Perform basic exploratory data analysis to understand the dataset.
 Use SQL to answer specific business questions and derive insights from the sales data.
 
 
-# Project Structure
+# 💻 Project Structure
 1. Database Setup
 Database Creation: The project starts by creating a database named p1_retail_db.
 Table Creation: A table named retail_sales is created to store the sales data.
@@ -218,15 +218,33 @@ The following SQL queries were developed to answer specific business questions:
 - Customer Insights:
   Reports on top customers and unique customer counts per category.
 
-## Conclusion:-
-  This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. 
-  The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+## 🎯 Project Highlights
 
-## How to Use:-
-- Clone the Repository: Clone this project repository from GitHub.
-- Set Up the Database: Run the SQL scripts provided in the database_setup.sql file to create and populate the database.
-- Run the Queries: Use the SQL queries provided in the analysis_queries.sql file to perform your analysis.
+✔️ Practical retail dataset
 
+✔️ SQL for business insights
+
+✔️ Easy to extend with BI dashboards
+
+✔️ Beginner-friendly but expandable for advanced analysis
+
+
+
+## 🚀 How to Run the Project- 
+
+- 1.Clone the Repository:  Clone this project repository from GitHub.
+
+      git clone https://github.com/kavitakamat21/sql_sales_p1.git
+2. Import the dataset into your SQL database.
+
+3. Run the queries from queries.sql file.
+
+
+## 📬 Contact
+
+👩‍💻 Author: Kavita Kamat
+
+📧 Email: kavitakamat22@gmail.com
 
 
 
