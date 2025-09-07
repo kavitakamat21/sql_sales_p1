@@ -1,3 +1,20 @@
+🛒 Retail Sales Analysis with SQL
+📌 Project Overview
+This project explores retail sales data using SQL to uncover insights such as:
+Best- selling products
+Seasonal trends in sales
+Customer purchasing behavior
+Store- level performance
+The goal is to demonstrate SQL querying, data analysis, and business intelligence skills by analyzing real-world retail sales patterns.
+
+📂 Dataset
+
+The dataset used is:
+📄 SQL - "Retail Sales Analysis_utf.csv"
+
+
+
+
 # Retail Sales Analysis SQL Project
   Analyzing retail sales to custromer support using mysql.
 ## Project Overview :-
